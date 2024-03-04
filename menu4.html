@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet"> 
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+</body>
+<header>
+    <h1 class="titulo">Pinkpantheress</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="menu2.html">Mas Informacion</a></li>
+            <li><a href="menu3.html">Albumes y sencillos</a></li>
+            <li><a href="menu4.html">Formulario</a></li>
+        </ul>
+    
+    </nav>
+    
+    <form method="post" action="https://www.dropbox.com/h" >
+        <ul>
+          <li>
+            <p class="nosotros">Acerca de Nosotros</p>
+            <label for="name" title="Ingrese un nombre y un apellido">Nombre:</label>
+            <input type="text" id="name" name="user_name" required />
+          </li>
+          <li>
+            <label for="mail" title="Ingrese su correo electrónico">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_mail" required />
+          </li>
+          <li>
+            <label for="password" title="Ingrese su contraseña">Contraseña:</label>
+            <input type="password" pattern=".{6,}" required />
+          </li>
+          <p>
+            <fieldset>
+              <legend>¿Te gusto esta pagina?<abbr title="Este campo es obligatorio" aria-label="required">*</abbr></legend>
+              <input type="radio" name="driver" id="r1" value="yes"><label for="r1">Sí</label>
+              <input type="radio" name="driver" id="r1" value="no"><label for="r2">No</label>
+            </fieldset>
+          </p>
+          <li>
+            <label for="msg" title="Ingrese su comentario">Mensaje:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+        </ul>
+        <p>
+            <input type="submit" value="Enviar">
+          </p>
+      </form>
+
+<footer class="footer">
+    <a class="link"><a href="https://www.youtube.com/@ponies721">Youtube</a></a> 
+    <a class="link"><a href="https://open.spotify.com/intl-es/artist/78rUTD7y6Cy67W1RVzYs7t?si=TTjdPkdZRam3c0DqsjNPLg">Spotify</a></a> 
+    <a class="link"><a href="https://www.instagram.com/pinkpantheress/">Instagram</a></a>
+    <a id="parrafo0">Gabriela Maria Avalos Henriquez 9B #3</a>
+    <a class="link"><a href="menu4.html">Formulario</a></a>
+  </footer>
+</html>
